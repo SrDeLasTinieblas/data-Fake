@@ -1,6 +1,7 @@
 # data-Fake
-�
-�
+
+![](https://github.com/SrDeLasTinieblas/data-Fake/blob/main/captura.PNG)
+
 ## install all lib
 
 pip install pandas
