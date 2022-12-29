@@ -31,9 +31,9 @@ def apiKeyGenerator():
 
 
 fake = Faker()
-#INSERT Usuarios (Usuario, Pass, Llave) values ('Tinieblas', 'darkangelo', '123456789') fake.name()
+#INSERT Usuarios (Usuario, Pass, Llave) values ('usuario', 'pass', 'apikey') fake.name()
 for _ in range( 10 ):                                    #Stephanie Allen          pass          
-    print("INSERT Usuarios (Usuario, Pass, Llave) values ('" + fake.name() + "'," + " '"+ encryptingCadena() + "'," + "'" + apiKeyGenerator() + "')" )
+    print("INSERT Usuarios (Usuario, Pass, Llave) values ('" + fake.name() + "'," + " '" + encryptingCadena() + "'," + "'" + apiKeyGenerator() + "')" )
     #print(fake.address)
 
 
